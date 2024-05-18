@@ -4,7 +4,8 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <div>
-    <header>
+    <header class="text-3xl font-bold underline">
+      Whatsapp
       <!-- Brand with name -->
     </header>
     <aside>
