@@ -3,8 +3,8 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div>
-    <header class="text-3xl font-bold underline">
+  <div class="bg-black w-full h-full flex">
+    <header class="p-3">
       Whatsapp
       <!-- Brand with name -->
     </header>
