@@ -1,21 +1,24 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <div>
+    <header>
+      <!-- Brand with name -->
+    </header>
+    <aside>
+      <!-- Menu button -->
+      <ul>
+        <!-- Messages button -->
+        <!-- Calls button -->
+        <!-- Status button -->
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
+        <!-- StarredMessages button -->
+        <!-- ArchivedMessages button -->
+      </ul>
+    </aside>
+  </div>
 
   <RouterView />
 </template>
